@@ -14,7 +14,6 @@ export default function App(){
 
  const onLeaveFeedback = (event) => {
     const { name } = event.target;
-    console.log(name);
     switch (name) {
       case "good":
         setGood((prevState) => prevState + 1);
