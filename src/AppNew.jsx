@@ -1,4 +1,4 @@
-import {useState, useEffect, useRef} from 'react';
+import {useState} from 'react';
 import FeedbackOptions from './components/Feedback/Feedback'
 import Statistic from './components/Statistic/Statistic'
 import Container from './App.styled'
